@@ -1,0 +1,85 @@
+{
+  "extends": ["airbnb"],
+  "parser": "babel-eslint",
+  "rules": {
+    "arrow-parens": ["error", "as-needed"],
+    "prettier/prettier": ["error"],
+    "import/no-unresolved": 0,
+    "import/no-named-as-default": 0,
+    "import/prefer-default-export": 0,
+    "import/newline-after-import": "error",
+    "import/imports-first": ["error", "absolute-first"],
+    "import/no-extraneous-dependencies": ["error", {
+      "devDependencies": true
+    }],
+    "react/jsx-closing-tag-location": 0,
+    "react/sort-comp": 0,
+    "react/prop-types": 0,
+    "react/no-multi-comp": 0,
+    "react/button-has-type": 0,
+    "react/forbid-prop-types": 0,
+    "react/jsx-wrap-multilines": 0,
+    "react/require-default-props": 0,
+    "react/jsx-curly-brace-presence": 0,
+    "react/prefer-stateless-function": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "react/no-array-index-key": 0,
+    "react/default-props-match-prop-types": 0,
+    "react/jsx-filename-extension": [1, {
+      "extensions": [".js", ".jsx"]
+    }],
+    "react/destructuring-assignment": 0,
+    "react/no-children-prop": 0,
+    "jsx-a11y/aria-role": 0,
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "no-void": 0,
+    "padded-blocks": 0,
+    "no-console": ["warn"],
+    "eol-last": 0,
+    "no-underscore-dangle": 0,
+    "no-use-before-define": ["error", {
+      "functions": false,
+      "classes": false
+    }],
+    "key-spacing": 0,
+    "no-nested-ternary": 0,
+    "jsx-quotes": ["error", "prefer-double"],
+    "implicit-arrow-linebreak": 0,
+    "no-confusing-arrow": 0,
+    "no-unused-vars": "error",
+    "no-unused-expressions": ["error", {
+      "allowShortCircuit": true
+    }],
+    "max-classes-per-file": ["error", 1],
+    "operator-linebreak": ["error", "before"],
+    "object-curly-newline": ["error", {
+      "consistent": true
+    }],
+    "object-curly-spacing": ["error", "always", {
+      "objectsInObjects": true
+    }]
+  },
+  "env": {
+    "es6": true
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "FormData": true,
+    "FileReader": true,
+    "Blob": true,
+    "navigator": true,
+    "it": true,
+    "expect": true,
+    "jest": true,
+    "alert": true,
+    "describe": true,
+    "prompt": true,
+    "fetch": true
+  }
+}

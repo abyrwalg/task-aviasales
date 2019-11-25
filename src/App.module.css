@@ -1,0 +1,18 @@
+.App {
+  width: 755px;
+  margin: auto;
+  margin-top: 160px;
+}
+
+.App .tickets {
+  width: 502px;
+  float: right;
+}
+
+.AppLogo {
+  position: absolute;
+  left: 46.88%;
+  right: 46.88%;
+  top: 3.7%;
+  bottom: 91.85%;
+}

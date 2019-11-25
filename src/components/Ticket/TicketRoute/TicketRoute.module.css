@@ -1,0 +1,27 @@
+.TicketRoute {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.TicketRoute div {
+  width: 141px;
+  height: 18px;
+  margin-right: 20px;
+}
+
+.TicketRoute span {
+  display: block;
+  font-family: Open Sans sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #4A4A4A;
+}
+
+.TicketRoute span.header {
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #A0B0B9;
+}
