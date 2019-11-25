@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './Ticket.module.css';
-import carrierLogo from '../../carrierLogo.svg';
 import TicketRoute from './TicketRoute/TicketRoute';
 
 const Ticket = props => {
