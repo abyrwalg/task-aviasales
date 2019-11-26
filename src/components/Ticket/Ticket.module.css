@@ -8,6 +8,10 @@
   border-radius: 5px;
 }
 
+.Ticket:nth-child(5) {
+  margin-bottom: 40px;
+}
+
 .Ticket .mainContent {
   padding-top: 76px;
   padding-left: 20px;
